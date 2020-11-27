@@ -121,7 +121,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_backpressure=1 \
     dev.pm.dyn_samplingrate=1 \
     ro.opengles.version=196610 \
-    ro.qualcomm.cabl=0
+    ro.qualcomm.cabl=0 \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
 # Factory reset partition
 PRODUCT_PROPERTY_OVERRIDES += \
