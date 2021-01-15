@@ -15,8 +15,6 @@
       "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq",
       "Values": [
         "9999999",
-        "1094400",
-        "614400",
         "300000"
       ],
       "ResetOnInit": true
@@ -36,8 +34,6 @@
       "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq",
       "Values": [
         "9999999",
-        "1113600",
-        "787000",
         "300000"
       ],
       "ResetOnInit": true
@@ -46,7 +42,7 @@
       "Name": "GPUMaxFreq",
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/max_freq",
       "Values": [
-        "700000000"
+        "800000000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -56,7 +52,6 @@
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/min_freq",
       "Values": [
         "588000000",
-        "370000000",
         "240000000",
         "160000000"
       ],
@@ -279,7 +274,7 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMaxFreq",
       "Duration": 0,
-      "Value": "700000000"
+      "Value": "800000000"
     },
     {
       "PowerHint": "Flipendo",
