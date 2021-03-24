@@ -426,13 +426,16 @@
     </string-array>
 
     <!-- Paths to the libraries that contain device specific key handlers -->
-    <string name="config_deviceKeyHandlerLib" translatable="false">/system/priv-app/MotoActions/MotoActions.apk</string>
-
-    <!-- Names of the key handler classes -->
-    <string name="config_deviceKeyHandlerClass" translatable="false">com.moto.actions.KeyHandler</string>
+    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+        <item>/system/priv-app/MotoActions/MotoActions.apk</item>
+    </string-array>
 
     <!-- Whether device ignores the RSSNR signal implementation -->
      <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
+    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+        <item>com.moto.actions.KeyHandler</item>
+    </string-array>
 
     <!-- Smart charge sysfs node and value for suspend/resume charging-->
     <bool name="config_smartChargingAvailable">true</bool>
@@ -457,4 +460,3 @@
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">true</bool>
 </resources>
-
