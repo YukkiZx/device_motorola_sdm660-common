@@ -22,5 +22,11 @@
     "repository":  "MindTheGapps/vendor_gapps",
     "target_path": "vendor/gapps",
     "branch":      "rho"
+  },
+  {
+    "repository"  : "motorola_camera2_denali", ]
+    "target_path" : "packages/apps/MotCamera2",
+    "branch"      : "eleven-arm64",
+    "remote"      : "moto-camera"
   } 
 ]
